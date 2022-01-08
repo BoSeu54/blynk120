@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+            background-image: url("../images/what-we-do.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+            
+        }
+        
+        .body-content {
+            padding-top: 5vh;
+            opacity: 0.9;
+        }
+        
+        .container {
+            width: 800px;
+            height: 820px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            border: 2px solid White;
+            border-radius: 15px;
+            background-image: url("../images/wall.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding-bottom: 170px;
+        }
+        
+        .logo {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        
+        .logo img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        
+h1{
+     font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+/*data*/
+label{
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+ .toggle-switch {
+     position: relative;
+     display: inline-block;
+     width: 60px;
+     height: 34px;
+     left: 20px;
+ }
+
+ 
+ .toggle-switch input {
+     opacity: 0;
+     width: 0;
+     height: 0;
+ }
+
+ 
+ .toggle-switch-slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+     border-radius: 34px;
+ }
+
+ .toggle-switch-slider:before {
+     position: absolute;
+     content: "";
+     height: 26px;
+     width: 26px;
+     left: 4px;
+     bottom: 4px;
+     background-color: white;
+     -webkit-transition: .4s;
+     transition: .4s;
+     border-radius: 50%;
+ }
+
+ input:checked+.toggle-switch-slider {
+     background-color: #2196F3;
+ }
+
+ input:focus+.toggle-switch-slider {
+     box-shadow: 0 0 1px #2196F3;
+ }
+
+ input:checked+.toggle-switch-slider:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0 35px 0;
+
+}
+
+.contanai {
+    width: 500px;
+    padding: 20px;           
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .message-error {
+     margin-right: 10px;
+     font-size: 16px;
+     color: red;
+ }
+
+ #metadata {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+ }
+
+ .token-n {
+
+    margin: 5px;
+    padding-bottom: 10px;
+    display: flex;
+     margin-left: -10px;
+     width: 460px;
+            height: 60px;
+ }
+
+  .token-n input{
+
+          
+            border: 2px solid #e1dede69;
+            border-radius: 10px;
+            background: white;
+            color: black;
+            text-align: center;
+      
+ }
+ .token-inner input{ 
+
+            width: 450px;
+            height: 50px;
+           
+            border-radius: 6px;
+            background: white;
+            color: black;
+            text-align: center;
+            font-size: 23px;
+            margin-left: -10px;
+ }
+
+ #device-name {
+     width: 100%;
+     padding: 0px;
+     border-radius: 6px;
+     border: 1px solid #988e9c;
+     margin-left: 10px;
+     font-size: 25px;
+ }
+
+ label {
+     font-size: 25px;
+ }
+
+ .datasteam-pin {
+    width: 60px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #988e9c;
+    font-size: 20px;
+     text-align: center;
+     font-weight: 700;
+ }
+
+ .datasteam {
+    margin-top: 20px;
+     
+ }
+
+ .widget-slider-bar {
+     width: 250px;
+     position: relative;
+     left: 20px;
+     
+ }
+
+ output {
+    position: relative;
+    left: 25px;
+    font-size: 22px;
+     color: white;
+     padding-left: 5px;
+ }
+
+ .token-inner {
+     margin-left: 20px;
+     width: 100%;
+     
+ }
+       
+.btt{
+
+  border: none;
+  color: black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+    height: 60px;
+    font-weight: 900;
+    border-radius: 15px;
+}
